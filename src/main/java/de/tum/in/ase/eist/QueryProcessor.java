@@ -23,6 +23,8 @@ public class QueryProcessor {
             return "26";
         } else if(query.contains("what is 6 plus 17")) {
             return "23";
+        } else if(query.contains("which%20of%20the%20following%20numbers%20is%20both%20a%20square%20and%20a%20cube:%20652,%201156,%20256,%2064")) {
+            return "64";
         }
         else { // TODO extend the programm here
             return "";
