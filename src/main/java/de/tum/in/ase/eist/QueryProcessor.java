@@ -14,7 +14,7 @@ public class QueryProcessor {
         } else if (query.contains("name")) {
            return "MyTeam";
         } else if (query.contains("what is your name")) {
-            return "mf";
+            return "Rishi";
         }
         else { // TODO extend the programm here
             return "";
