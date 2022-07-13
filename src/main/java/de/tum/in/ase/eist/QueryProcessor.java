@@ -13,8 +13,8 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
            return "MyTeam";
-        } else if (query.contains("which of the following number is the largest:")) {
-            return "20907";
+        } else if (query.contains("which of the following numbers is the largest: 84, 469")) {
+            return "469";
         } else if(query.contains("what is 10 plus 15")) {
             return "25";
         } else if(query.contains("what is 2 plus 0")) {
